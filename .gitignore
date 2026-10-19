@@ -1,0 +1,28 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+backend/.cache/
+
+# node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# playwright MCP scratch
+.playwright-mcp/
+docs/screenshots/.tmp/
